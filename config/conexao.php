@@ -15,7 +15,7 @@
 */
 
 $host = 'localhost';          // Servidor da base de dados
-$bdname = 'clinica_vet';      // Nome da base de dados
+$bdname = 'clinica_veterinaria';      // Nome da base de dados
 $utilizador = 'root';         // Nome do utilizador MySQL
 $senha = '';                  // Palavra-passe (deixa vazia se for o caso)
 
