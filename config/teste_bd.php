@@ -12,7 +12,7 @@
 */
 
 // Inclui o ficheiro de ligação (um nível acima)
-require_once '../config/conexao.php';
+require_once 'C:/trabalhos/clinica_veterinaria/config/conexao.php';
 
 // Cria a consulta SQL (só queremos as espécies não apagadas)
 $sql = "SELECT id, nome FROM especies WHERE apagado_em IS NULL ORDER BY nome ASC";
@@ -35,7 +35,7 @@ try {
 <head>
     <meta charset="UTF-8">
     <title>Teste de Ligação à Base de Dados</title>
-    <link rel="stylesheet" href="../assets/css/estilo.css">
+    <link rel="stylesheet" href="C:/trabalhos/clinica_veterinaria/assets/css/estilo.css">
     <style>
         body {
             font-family: Arial, sans-serif;
